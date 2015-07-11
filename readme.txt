@@ -6,7 +6,7 @@ GITHUB LINE: v3
 In this example “refactored” is the name of the new branch and “origin/refactored” is the name of existing remote-tracking branch to base it on. (In recent versions of git the “–track” option is actually unnecessary since it’s implied when the final parameter is a remote-tracking branch, as in this example.)
 
 The “–track” option sets up some configuration variables that associate the local branch with the remote-tracking branch. These are useful chiefly for two things:
-LOCAL LINE: v2
+LOCAL LINE: v3
 They allow git pull to know what to merge after fetching new remote-tracking branches.
 If you do git checkout to a local branch which has been set up in this way, it will give you a helpful message such as:
     Your branch and the tracked remote branch 'origin/master'
